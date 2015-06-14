@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ title }}</title>
+		<link href={{ static_url("helloworld.css") }} rel="stylesheet" media="screen" />
+		<link href={{ static_url("bootstrap.css") }} rel="stylesheet" media="screen" />
+		<!-- <script src={{ static_url("bootstrap.min.js")}} type="text/javascript"></script> -->
+		<script src={{ static_url("jquery.js")}} type="text/javascript"></script>
+		<script src={{ static_url("parse.js")}} type="text/javascript"></script>
+	</head>
+	<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Librarian
+                    <small>Where can I use a seat?</small>
+                </h1>
+                <p>There is no person : Blue | There is someone who use this seat : Red | There is someone who occupy this seat : Yellow</p>
+            </div>
+        </div>
+
+        <!-- Team Members Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Seat State</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <div class="full-circle" id="seat1">
+    				<span>SEAT 1</span>
+    			</div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 text-center">
+                <div class="full-circle" id="seat2">
+    				<span>SEAT 2</span>
+
+    			</div>
+            
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <div class="full-circle" id="seat3">
+    				<span>SEAT 3</span>
+    			</div>
+            <br>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <div class="full-circle" id="seat4">
+    				<span>SEAT 4</span>
+    			</div>
+            
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <div class="full-circle" id="seat5">
+    				<span>SEAT 5</span>
+    			</div>
+            
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <div class="full-circle" id="seat6">
+    				<span>SEAT 6</span>
+    			</div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Librarian(Dongwon, Youngseok, Changhyun)</p>
+                </div>
+                
+            </div>
+            
+        </footer>
+    </div>
+	</body>
+</html>

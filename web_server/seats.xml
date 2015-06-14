@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<seats>
+	<seat name="seat1">
+		<number>1</number>
+		<type>free</type>
+	</seat>
+	<seat name="seat2">
+		<number>2</number>
+		<type>use</type>
+	</seat>
+</seats>
