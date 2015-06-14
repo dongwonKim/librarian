@@ -24,7 +24,7 @@ System of preventing occupied seat in Library
 ```bash
 > ./xbee3.py
 ```
-* Enter the web application ** Firefox or Chrome are browsers recommanded **
+* Enter the web application **Firefox or Chrome are browsers recommanded**
 ```bash
 > localhost:8889
 ```
